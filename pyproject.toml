@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "fastapi_socket"
+version = "0.1.0"
+description = ""
+authors = ["rahul-george <rahultgeorge91@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+websockets = "^12.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
